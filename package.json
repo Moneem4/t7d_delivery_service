@@ -1,0 +1,34 @@
+{
+  "name": "T7D",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sonar": "sonar-scanner -D project.settings=./delivery.properties",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GalactechTunisie/T7D.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GalactechTunisie/T7D/issues"
+  },
+  "homepage": "https://github.com/GalactechTunisie/T7D#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "geoip-lite": "^1.4.2",
+    "mongoose": "^6.0.12",
+    "sonar-scanner": "^3.1.0",
+    "twilio": "^3.71.1"
+  }
+}
