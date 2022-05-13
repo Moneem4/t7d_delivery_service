@@ -27,7 +27,7 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "geoip-lite": "^1.4.2",
-    "mongoose": "^6.0.12",
+    "mongoose": "^6.3.1",
     "sonar-scanner": "^3.1.0",
     "twilio": "^3.71.1"
   }
